@@ -7,4 +7,5 @@ public class ActiveStatus
     public StatusType statusType;
     public int durationTurns;
     public int amount;
+    public Sprite statusIcon;
 }

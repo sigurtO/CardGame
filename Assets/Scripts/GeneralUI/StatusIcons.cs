@@ -12,9 +12,9 @@ public class StatusIcons : MonoBehaviour
     {
         statusDuration.text = status.durationTurns.ToString();
 
-        //if (status.statusIcon != null)
-        //{
-        //    statusImage.sprite = status.statusIcon;
-        //}
+        if (status.statusIcon != null)
+        {
+            statusImage.sprite = status.statusIcon;
+        }
     }
 }

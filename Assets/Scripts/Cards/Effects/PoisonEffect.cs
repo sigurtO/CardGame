@@ -10,7 +10,7 @@ public class PoisonEffect : EffectTick
 
         if (reciver != null )
         {
-            reciver.ApplyStatus(StatusType.Poison, effectValue, durationTurns);
+            reciver.ApplyStatus(StatusType.Poison, effectValue, durationTurns, effectIcon);
         }
     }
 }

@@ -9,7 +9,7 @@ public enum PhaseType
 }
 public abstract class EnemyPhase : ScriptableObject
 {
-    [SerializeField] public Sprite IconForUi;
+    [SerializeField] public Sprite IntentIcon;
     [SerializeField] public PhaseType phaseType;
     public abstract void ExecutePhase(GameObject source, GameObject target, int amount); //either attack or apply a buff or debuff.
 }

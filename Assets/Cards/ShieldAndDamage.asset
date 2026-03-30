@@ -15,7 +15,7 @@ MonoBehaviour:
   cardName: Shield and damage
   description: Shields and daamages
   manaCost: 2
-  image: {fileID: -7035150941381008381, guid: 0e1d42ead2cb90f4aba88c5e91e46b67, type: 3}
+  image: {fileID: -6368897105359470403, guid: c4b9b128bed0fd046b2ccb956aa9aa76, type: 3}
   effects:
   - effect: {fileID: 11400000, guid: 258590c36f8e22d4289709ed0938bea2, type: 2}
     amount: 5

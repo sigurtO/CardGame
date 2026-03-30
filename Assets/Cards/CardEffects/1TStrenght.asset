@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: 1TStrenght
   m_EditorClassIdentifier: Assembly-CSharp::StrenghtEffect
   durationTurns: 1
+  effectIcon: {fileID: 12085813604639031, guid: 1833aafcbf064064199a1b54e8551bad, type: 3}

@@ -9,7 +9,7 @@ public class PhasePoison : PhaseTick
 
         if (reciver != null)
         {
-            reciver.ApplyStatus(StatusType.Poison, amount, durationTurns);
+            reciver.ApplyStatus(StatusType.Poison, amount, durationTurns, statusIconToApply);
         }
     }
 }

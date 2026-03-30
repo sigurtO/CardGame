@@ -48,7 +48,7 @@ public class EnemyUi : MonoBehaviour
         {
             damageText.text = enemyIntent.amount.ToString();// Update the damage text based on the intent
 
-            intentIcon.sprite = enemyIntent.phases.IconForUi; // Update the intent icon based on the intent
+            intentIcon.sprite = enemyIntent.phases.IntentIcon; // Update the intent icon based on the intent
 
         }
     }

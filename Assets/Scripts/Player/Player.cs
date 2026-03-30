@@ -8,6 +8,9 @@ public class Player : MonoBehaviour, ICombatTarget //this holds both ItakeDamage
 
     [SerializeField] private int shield = 0;
 
+    [SerializeField] private Animation anim;
+
+
     public int CurrentStrength { get; private set; }
 
     [SerializeField] private TurnManager turnManager;
@@ -36,6 +39,8 @@ public class Player : MonoBehaviour, ICombatTarget //this holds both ItakeDamage
     //Interfaces
     public void TakeDamage(int dmg)
     {
+        anim.Play("playerDmg");
+
         // 1. Let the shield absorb damage first
         if (shield > 0)
         {
@@ -49,7 +54,6 @@ public class Player : MonoBehaviour, ICombatTarget //this holds both ItakeDamage
                 dmg -= shield; // Shield absorbs what it can, remainder goes to health
                 shield = 0;    // Shield is destroyed
             }
-
             OnShield?.Invoke(shield); // Update shield UI
         }
 
@@ -89,7 +93,7 @@ public class Player : MonoBehaviour, ICombatTarget //this holds both ItakeDamage
         shield += amount;
         OnShield?.Invoke(shield); //for updating shield UI
 
-
+        anim.Play("PlayerShield");
         // implement so the shield goes away after enemy round is over
     }
 

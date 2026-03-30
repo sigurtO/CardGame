@@ -30,9 +30,9 @@ public class StatusManager : MonoBehaviour, IStatusReciver
     }
 
 
-    public void ApplyStatus(StatusType statusType, int amount, int durationTurns)
+    public void ApplyStatus(StatusType statusType, int amount, int durationTurns, Sprite icon)
     {
-        activeStatuses.Add(new ActiveStatus { statusType = statusType, amount = amount, durationTurns = durationTurns });
+        activeStatuses.Add(new ActiveStatus { statusType = statusType, amount = amount, durationTurns = durationTurns, statusIcon = icon });
 
         OnStatusesChanged?.Invoke();
     }

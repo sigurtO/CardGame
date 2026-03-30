@@ -11,7 +11,7 @@ public class StrenghtEffect : EffectTick
 
         if (reciver != null)
         {
-            reciver.ApplyStatus(StatusType.Strength, effectValue, durationTurns);
+            reciver.ApplyStatus(StatusType.Strength, effectValue, durationTurns, effectIcon);
         }
     }
 }

@@ -15,7 +15,7 @@ MonoBehaviour:
   cardName: Strenght
   description: give 2 strenght current turn
   manaCost: 1
-  image: {fileID: 12085813604639031, guid: 1833aafcbf064064199a1b54e8551bad, type: 3}
+  image: {fileID: 1722062800732513005, guid: f032aad5a3924e64ea8e0b2cb0ed6457, type: 3}
   effects:
   - effect: {fileID: 11400000, guid: 104c3d60c138bdd45b9fc45a33b064b8, type: 2}
     amount: 2

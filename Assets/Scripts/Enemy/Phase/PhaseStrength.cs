@@ -9,7 +9,7 @@ public class PhaseStrength : PhaseTick
 
         if (reciver != null)
         {
-            reciver.ApplyStatus(StatusType.Strength, amount, durationTurns);
+            reciver.ApplyStatus(StatusType.Strength, amount, durationTurns, statusIconToApply);
         }
     }
 }

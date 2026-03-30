@@ -2,7 +2,49 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>D:\UnityLocalGames\CardGame\Assets\Scripts\Enemy\Enemy.cs</string>
+      <string>C:\Users\sigur\Projects\CardGame\Assets\Scripts\Cards\Effects\CardEffect.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\sigur\Projects\CardGame\Assets\Scripts\Cards\Effects\EffectTick.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\sigur\Projects\CardGame\Assets\Scripts\Enemy\Phase\PhaseTick.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\sigur\Projects\CardGame\Assets\Scripts\Enemy\Phase\EnemyPhase.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\sigur\Projects\CardGame\Assets\Scripts\Managers\StatusManager.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\sigur\Projects\CardGame\Assets\Scripts\GeneralUI\StatusIcons.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\sigur\Projects\CardGame\Assets\Scripts\Interfaces\IStatusReciver.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\sigur\Projects\CardGame\Assets\Scripts\Status\ActiveStatus.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\sigur\Projects\CardGame\Assets\Scripts\Cards\Effects\PoisonEffect.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\sigur\Projects\CardGame\Assets\Scripts\Enemy\Phase\PhasePoison.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\sigur\Projects\CardGame\Assets\Scripts\Cards\Effects\StrenghtEffect.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\sigur\Projects\CardGame\Assets\Scripts\Enemy\Phase\PhaseStrength.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\sigur\Projects\CardGame\Assets\Scripts\Enemy\EnemyUi.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\sigur\Projects\CardGame\Assets\Scripts\Player\Player.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\sigur\Projects\CardGame\Assets\Scripts\Enemy\Enemy.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>

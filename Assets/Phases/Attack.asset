@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78f6a2f87b5ff674892053b92a56915a, type: 3}
   m_Name: Attack
   m_EditorClassIdentifier: Assembly-CSharp::PhaseAttack
-  IconForUi: {fileID: 21300000, guid: d4bd611251aab0746aada28a75c2f68e, type: 3}
+  IntentIcon: {fileID: 21300000, guid: d4bd611251aab0746aada28a75c2f68e, type: 3}
   phaseType: 0

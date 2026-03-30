@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 559b635184b6f7c48a93caf87fdbe842, type: 3}
   m_Name: Poison3R
   m_EditorClassIdentifier: Assembly-CSharp::PhasePoison
-  IconForUi: {fileID: -5005990984189769374, guid: 4f488aba77b60e8469f4388a24bd7e72, type: 3}
+  IntentIcon: {fileID: -5005990984189769374, guid: 4f488aba77b60e8469f4388a24bd7e72, type: 3}
   phaseType: 2
   durationTurns: 3
+  statusIconToApply: {fileID: -9118571186201797996, guid: a3b766d74f5620c4babbadfaf7df69e5, type: 3}

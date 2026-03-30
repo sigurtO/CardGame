@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: 3Tpoison
   m_EditorClassIdentifier: Assembly-CSharp::PoisonEffect
   durationTurns: 3
+  effectIcon: {fileID: -9118571186201797996, guid: a3b766d74f5620c4babbadfaf7df69e5, type: 3}

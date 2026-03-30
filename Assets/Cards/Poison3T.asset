@@ -15,7 +15,7 @@ MonoBehaviour:
   cardName: Poison
   description: Apply poison for 3 turns
   manaCost: 2
-  image: {fileID: -1486736674410596525, guid: 00646ff7bb052d843a8ecb2ad5eff364, type: 3}
+  image: {fileID: -5005990984189769374, guid: 4f488aba77b60e8469f4388a24bd7e72, type: 3}
   effects:
   - effect: {fileID: 11400000, guid: 3fc783ea60fc5014caa874eabf0c8299, type: 2}
     amount: 5
