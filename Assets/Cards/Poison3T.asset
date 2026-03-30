@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1c7e58783853c24f8fe28312ebe00e3, type: 3}
+  m_Name: Poison3T
+  m_EditorClassIdentifier: Assembly-CSharp::CardData
+  cardName: Poison
+  description: Apply poison for 3 turns
+  manaCost: 2
+  image: {fileID: -1486736674410596525, guid: 00646ff7bb052d843a8ecb2ad5eff364, type: 3}
+  effects:
+  - effect: {fileID: 11400000, guid: 3fc783ea60fc5014caa874eabf0c8299, type: 2}
+    amount: 5
+  targetType: 0
