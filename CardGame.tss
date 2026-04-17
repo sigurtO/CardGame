@@ -46,5 +46,11 @@
     <ArrayOfString>
       <string>C:\Users\sigur\Projects\CardGame\Assets\Scripts\Enemy\Enemy.cs</string>
     </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\sigur\Projects\CardGame\Assets\Scripts\Cards\Effects\EffectPayload.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\sigur\Projects\CardGame\Assets\Scripts\Cards\CardData\CardData.cs</string>
+    </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
