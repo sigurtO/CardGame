@@ -17,13 +17,13 @@ public class HandManagerUI : MonoBehaviour
 
     private void OnEnable()
     {
-        turnManager.OnPlayerTurnEnded += DisableHand;
+        TurnManager.OnPlayerTurnEnded += DisableHand;
         turnManager.OnEnemyTurnEnded += EnableHand;
     }
 
     private void OnDisable()
     {
-        turnManager.OnPlayerTurnEnded -= DisableHand;
+        TurnManager.OnPlayerTurnEnded -= DisableHand;
         turnManager.OnEnemyTurnEnded -= EnableHand;
     }
     public void DrawCardUi(CardData drawnData)

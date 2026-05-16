@@ -9,8 +9,6 @@ public class StatusManager : MonoBehaviour, IStatusReciver
     [SerializeField] public List<ActiveStatus> activeStatuses = new List<ActiveStatus>();
     private ICombatTarget target;   // holds Ibuffable and ItakeDamage
 
-    [SerializeField] private TurnManager turnManager;
-
     public event Action OnStatusesChanged;
 
     private void Awake()
@@ -20,12 +18,12 @@ public class StatusManager : MonoBehaviour, IStatusReciver
 
     private void OnEnable()
     {
-        turnManager.OnTurnTick += OnTurnEndTick; // subscribe to the event when turn ticks
+        TurnManager.OnTurnTick += OnTurnEndTick; // subscribe to the event when turn ticks
     }
 
     private void OnDisable()
     {
-        turnManager.OnTurnTick -= OnTurnEndTick;
+        TurnManager.OnTurnTick -= OnTurnEndTick;
 
     }
 
@@ -59,6 +57,18 @@ public class StatusManager : MonoBehaviour, IStatusReciver
 
             // 1. ONLY execute Action Statuses here!
             if (status.statusType == StatusType.Poison)
+            {
+                target?.TakeDamage(status.amount);
+            }
+            else if (status.statusType == StatusType.Regen)
+            {
+                target?.Heal(status.amount);
+            }
+            else if (status.statusType == StatusType.Block)
+            {
+                target?.TakeDamage(status.amount);
+            }
+            else if (status.statusType == StatusType.Stun)
             {
                 target?.TakeDamage(status.amount);
             }

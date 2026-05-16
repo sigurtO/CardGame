@@ -1,14 +1,15 @@
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class Player : MonoBehaviour, ICombatTarget //this holds both ItakeDamage and IBuffable
 {
-    [SerializeField] private int currentHealth = 100;
-    [SerializeField] private int maxHealth = 100;
+    //[SerializeField] private int currentHealth = 100;
+    //[SerializeField] private int maxHealth = 100;
+
+    [SerializeField] private CurrentRunState runState; // Inject the Single Source of Truth
 
     [SerializeField] private int shield = 0;
-
-    [SerializeField] private Animation anim;
 
 
     public int CurrentStrength { get; private set; }
@@ -18,16 +19,21 @@ public class Player : MonoBehaviour, ICombatTarget //this holds both ItakeDamage
     //[SerializeField] private useables[] useables
     //[SerializeField] private totems[] totems
 
-    public UnityAction<int, int> OnHealthChanged; 
-    public UnityAction<int> OnShield;
-    public UnityAction OnDeath;
+    public static event Action<int, int> OnPlayerTookDamage; // for BattleAnalyticsManager to track dmg and shield
 
+    public UnityAction<int, int> OnHealthChanged; //we don'r remake this to event bc im lazy :)
+    public UnityAction<int> OnShield; //but I do like event action better so we dont need to link up in inspector like here.
+    public static event Action OnDeath;
     private void Start()
     {
 
-        currentHealth = maxHealth;         // Initialize health
+        if (runState.currentMaxHealth == 0)
+        {
+            Debug.LogWarning("RunState health is 0! Auto-resetting for testing purposes.");
+            runState.ResetRun();
+        }
 
-        OnHealthChanged?.Invoke(currentHealth, maxHealth); //update ui
+        OnHealthChanged?.Invoke(runState.currentHealth, runState.currentMaxHealth);
     }
 
     private void OnEnable()
@@ -39,9 +45,10 @@ public class Player : MonoBehaviour, ICombatTarget //this holds both ItakeDamage
     //Interfaces
     public void TakeDamage(int dmg)
     {
-        anim.Play("playerDmg");
 
-        // 1. Let the shield absorb damage first
+        int shieldAbsorbed = 0;
+        int damageHit = 0;
+        // 1. Let the VOLATILE shield absorb damage first
         if (shield > 0)
         {
             if (shield >= dmg)
@@ -51,41 +58,48 @@ public class Player : MonoBehaviour, ICombatTarget //this holds both ItakeDamage
             }
             else
             {
+                shieldAbsorbed = dmg;
                 dmg -= shield; // Shield absorbs what it can, remainder goes to health
                 shield = 0;    // Shield is destroyed
             }
-            OnShield?.Invoke(shield); // Update shield UI
+
+            // Tell the UI the shield took a hit
+            OnShield?.Invoke(shield);
         }
 
-        // 2. Apply remaining damage to health
+        // 2. Apply remaining damage to the PERSISTENT Backpack Health
         if (dmg > 0)
         {
-            currentHealth -= dmg;
+            damageHit = dmg; // For analytics tracking
+            runState.currentHealth -= dmg;
+            runState.currentHealth = Mathf.Max(runState.currentHealth, 0); // Prevent negative HP
 
-            if (currentHealth <= 0)
+            // Update the Health Bar UI
+            OnHealthChanged?.Invoke(runState.currentHealth, runState.currentMaxHealth);
+
+            // Check for death
+            if (runState.currentHealth <= 0)
             {
-                currentHealth = 0;
                 OnDeath?.Invoke();
-                Debug.Log("Player has died.");
             }
-
-            // Invoke health change regardless of if we died or not
-            OnHealthChanged?.Invoke(currentHealth, maxHealth);
         }
+
+        OnPlayerTookDamage?.Invoke(damageHit, shieldAbsorbed);
     }
 
-    void Strengthen(int amount)
+    void Strengthen(int amount) // we dotn use this
     {
         CurrentStrength += amount;
     }
 
     public void Heal(int amount)
     {
-        currentHealth += amount;
-        if (currentHealth > maxHealth)
-        {
-            currentHealth = maxHealth;
-        }
+        runState.currentHealth += amount;
+
+        // Clamp to max health
+        runState.currentHealth = Mathf.Min(runState.currentHealth, runState.currentMaxHealth);
+
+        OnHealthChanged?.Invoke(runState.currentHealth, runState.currentMaxHealth);
     }
 
     public void Shield(int amount) 
@@ -93,7 +107,6 @@ public class Player : MonoBehaviour, ICombatTarget //this holds both ItakeDamage
         shield += amount;
         OnShield?.Invoke(shield); //for updating shield UI
 
-        anim.Play("PlayerShield");
         // implement so the shield goes away after enemy round is over
     }
 

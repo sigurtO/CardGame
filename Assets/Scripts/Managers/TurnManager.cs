@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -14,17 +15,17 @@ public class TurnManager : MonoBehaviour
 
     //events end turn
     public UnityAction OnEnemyTurnEnded;
-    public UnityAction OnPlayerTurnEnded;
+    public static event Action OnPlayerTurnEnded;
     public UnityAction OnPlayerTurnStart;
 
     //event status Manager
-    public UnityAction OnTurnTick;
+    public static UnityAction OnTurnTick;
 
 
-    private void Start() // for testing
-    {
-        BattleStart();
-    }
+    //private void Start() // for testing
+    //{
+    //    BattleStart();
+    //}
     public void BattleStart()
     {
         enemyManager.RollEnemyIntent();

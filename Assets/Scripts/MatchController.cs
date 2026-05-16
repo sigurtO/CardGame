@@ -35,10 +35,8 @@ public class MatchController : MonoBehaviour
     //First turn
     public void ShuffelCards()
     {
-        deckManager.ShuffleDeck();
+        deckManager.SetupCombatDeck();
     }
-
-
 
     public void DrawCardOnPlayerTurn()
     {
@@ -109,7 +107,15 @@ public class MatchController : MonoBehaviour
 
 
         //2/ REMOVE CARD FROM HAND
-        deckManager.RemoveCardFromHand(loadedCard);
+        if (loadedCard.exhausts)
+        {
+            deckManager.ExhaustCard(loadedCard);
+        }
+        else
+        {
+            deckManager.DiscardCard(loadedCard);
+        }
+        //deckManager.DiscardCard(loadedCard); //here
         // 3. UPDATE HAND UI
         handManager.OnCardUse(loadedCardUi);
 
@@ -122,7 +128,10 @@ public class MatchController : MonoBehaviour
         loadedCard = null; // clear memory
     }
 
-
+    public void HandlePlayerDeath()
+    {
+        //ui, reset run
+    }
 
 
 }

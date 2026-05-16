@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
@@ -6,13 +7,18 @@ public class Enemy : MonoBehaviour, ICombatTarget //this holds both ItakeDamage 
 {
     [SerializeField] private int currentHealth = 50;
     [SerializeField] private int maxHealth = 50;
-    [SerializeField] private Animation dmgAnimation;
+
+    private int currentShield = 0; // Starts at 0 every battle
+
+    public static event Action<int> OnEnemyTookDamage; //for our statistics
 
     [SerializeField] private PhasePayload[] phases; // Array of phases for the enemy
 
     public UnityAction<int, int> OnHealthChanged; // event for ui
     public UnityAction OnIntentChanged;
 
+    public static event Action<Enemy> OnEnemyDied;
+    public UnityAction<int> OnShieldChanged;
 
     public PhasePayload CurrentIntent { get; private set; }
 
@@ -31,29 +37,64 @@ public class Enemy : MonoBehaviour, ICombatTarget //this holds both ItakeDamage 
 
     public void TakeDamage(int amount)
     {
-        currentHealth -= amount;
-
-
-       // currentHealth = Mathf.Max(0, currentHealth);         // Prevent health from going below 0 visually
-
-        OnHealthChanged?.Invoke(currentHealth, maxHealth);
-        dmgAnimation.Play(); // Play damage animation
-
-
-        if (currentHealth <= 0)
+        //shield absorbs damage first
+        if (currentShield > 0)
         {
-            Die();
+            if (currentShield >= amount)
+            {
+                currentShield -= amount;
+                amount = 0;
+            }
+            else
+            {
+                amount -= currentShield;
+                currentShield = 0;
+            }
+            OnShieldChanged?.Invoke(currentShield);
+        }
+        //no shield
+        if (amount > 0)
+        {
+            currentHealth -= amount;
+            OnEnemyTookDamage?.Invoke(amount);
+            OnHealthChanged?.Invoke(currentHealth, maxHealth);
+
+            if (currentHealth <= 0)
+            {
+                Die();
+            }
         }
     }
 
-    void Strengthen(int amount) 
+    void Strengthen(int amount) //we dont use this
     {
         CurrentStrength += amount;
     }
+
+    public void Heal(int amount)
+    {
+        currentHealth += amount;
+        currentHealth = Mathf.Min(currentHealth, maxHealth); // Don't overheal
+
+        OnHealthChanged?.Invoke(currentHealth, maxHealth);
+    }
+    public void Shield(int amount)
+    {
+        currentShield += amount;
+        OnShieldChanged?.Invoke(currentShield);
+    }
+
+    public void ResetShield() //IDK if we want to use this yet.
+    {
+        if (currentShield > 0)
+        {
+            currentShield = 0;
+            OnShieldChanged?.Invoke(currentShield);
+        }
+    }
     private void Die()
     {
-        // Implement death logic, such as playing an animation or dropping loot
-        Debug.Log("Enemy has died.");
+        OnEnemyDied?.Invoke(this);
         Destroy(gameObject);
     }
 
@@ -63,6 +104,7 @@ public class Enemy : MonoBehaviour, ICombatTarget //this holds both ItakeDamage 
         if (forceDamageNextTurn) // force to pick attack phase if the flag is set
         {
             CurrentIntent = GetPhasePayloadByType(PhaseType.Attack);
+
             forceDamageNextTurn = false; // Reset the flag after forcing an attack
             Debug.Log($"[Enemy AI] Forced to pick: {CurrentIntent.phases.phaseType}"); // call a ui to show the intent
             OnIntentChanged?.Invoke(); // Notify UI of intent change
@@ -71,7 +113,7 @@ public class Enemy : MonoBehaviour, ICombatTarget //this holds both ItakeDamage 
 
 
         //NORMAL behavior: pick a random phase
-        int randomIndex = Random.Range(0, phases.Length);
+        int randomIndex = UnityEngine.Random.Range(0, phases.Length);
         CurrentIntent = phases[randomIndex];
         Debug.Log($"[Enemy AI] Randomly picked: {CurrentIntent.phases.phaseType}");
 

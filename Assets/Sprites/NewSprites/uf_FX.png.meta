@@ -1,0 +1,3536 @@
+fileFormatVersion: 2
+guid: 67e124e726681db4f87d7d86048aa269
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4835728323304448234
+    second: uf_FX_0
+  - first:
+      213: -7797452751456635016
+    second: uf_FX_1
+  - first:
+      213: -4549279363329715605
+    second: uf_FX_2
+  - first:
+      213: -8034579160405851417
+    second: uf_FX_3
+  - first:
+      213: 9083569635830615605
+    second: uf_FX_4
+  - first:
+      213: -201846060321050494
+    second: uf_FX_5
+  - first:
+      213: -3547217199441392686
+    second: uf_FX_6
+  - first:
+      213: 3357050166522877670
+    second: uf_FX_7
+  - first:
+      213: 1790837666381700034
+    second: uf_FX_8
+  - first:
+      213: -3234347571634557323
+    second: uf_FX_9
+  - first:
+      213: -2311690482729959665
+    second: uf_FX_10
+  - first:
+      213: -2345517119371055259
+    second: uf_FX_11
+  - first:
+      213: -6207647897094147389
+    second: uf_FX_12
+  - first:
+      213: -6247927842971439576
+    second: uf_FX_13
+  - first:
+      213: -3972193045404228165
+    second: uf_FX_14
+  - first:
+      213: -7375405004962548823
+    second: uf_FX_15
+  - first:
+      213: 485630107708723094
+    second: uf_FX_16
+  - first:
+      213: -1892995914853477003
+    second: uf_FX_17
+  - first:
+      213: -4918134154569033645
+    second: uf_FX_18
+  - first:
+      213: 7227027827127499723
+    second: uf_FX_19
+  - first:
+      213: 8509685007704091080
+    second: uf_FX_20
+  - first:
+      213: -7162701318977471368
+    second: uf_FX_21
+  - first:
+      213: 3423281292446661315
+    second: uf_FX_22
+  - first:
+      213: -6589194011922091972
+    second: uf_FX_23
+  - first:
+      213: -8291825395806604651
+    second: uf_FX_24
+  - first:
+      213: -836540387329209022
+    second: uf_FX_25
+  - first:
+      213: -3796179028915525581
+    second: uf_FX_26
+  - first:
+      213: 1659718444919629145
+    second: uf_FX_27
+  - first:
+      213: 617163717176175559
+    second: uf_FX_28
+  - first:
+      213: -79042523124351686
+    second: uf_FX_29
+  - first:
+      213: -2735521461843602324
+    second: uf_FX_30
+  - first:
+      213: -2068446305105678915
+    second: uf_FX_31
+  - first:
+      213: 8275487100063847179
+    second: uf_FX_32
+  - first:
+      213: 8864388084565582695
+    second: uf_FX_33
+  - first:
+      213: -6233241490945927315
+    second: uf_FX_34
+  - first:
+      213: -4942027914619295156
+    second: uf_FX_35
+  - first:
+      213: -1272363156849733768
+    second: uf_FX_36
+  - first:
+      213: -9076613811471535004
+    second: uf_FX_37
+  - first:
+      213: 6766389768748444948
+    second: uf_FX_38
+  - first:
+      213: -6964720340603595725
+    second: uf_FX_39
+  - first:
+      213: 7174210180592090247
+    second: uf_FX_40
+  - first:
+      213: 1500562709578267065
+    second: uf_FX_41
+  - first:
+      213: -3211382555328683767
+    second: uf_FX_42
+  - first:
+      213: 5762211715431905968
+    second: uf_FX_43
+  - first:
+      213: -1021298696347388546
+    second: uf_FX_44
+  - first:
+      213: -8222235077903851463
+    second: uf_FX_45
+  - first:
+      213: -7238859539109470966
+    second: uf_FX_46
+  - first:
+      213: -4729351041132073433
+    second: uf_FX_47
+  - first:
+      213: -8807312975573726582
+    second: uf_FX_48
+  - first:
+      213: -6746272894354656250
+    second: uf_FX_49
+  - first:
+      213: 1051785063690082230
+    second: uf_FX_50
+  - first:
+      213: 2810467275832585719
+    second: uf_FX_51
+  - first:
+      213: 1671153320508003244
+    second: uf_FX_52
+  - first:
+      213: -3532215796256091641
+    second: uf_FX_53
+  - first:
+      213: 6895451026532238264
+    second: uf_FX_54
+  - first:
+      213: 5185575945852507717
+    second: uf_FX_55
+  - first:
+      213: 7823048057938700781
+    second: uf_FX_56
+  - first:
+      213: -2598876620968080701
+    second: uf_FX_57
+  - first:
+      213: -7328364040731660947
+    second: uf_FX_58
+  - first:
+      213: -5367187370775722071
+    second: uf_FX_59
+  - first:
+      213: -3702336486392066726
+    second: uf_FX_60
+  - first:
+      213: 3244250693349217943
+    second: uf_FX_61
+  - first:
+      213: 7689835896940194540
+    second: uf_FX_62
+  - first:
+      213: 3323393927596844485
+    second: uf_FX_63
+  - first:
+      213: 7735858055926352992
+    second: uf_FX_64
+  - first:
+      213: 5091219332032768841
+    second: uf_FX_65
+  - first:
+      213: -7052297318928508631
+    second: uf_FX_66
+  - first:
+      213: -2711246441264893082
+    second: uf_FX_67
+  - first:
+      213: 2238149504197557038
+    second: uf_FX_68
+  - first:
+      213: -1266073308919440871
+    second: uf_FX_69
+  - first:
+      213: 7048758562904292957
+    second: uf_FX_70
+  - first:
+      213: -307647768753975520
+    second: uf_FX_71
+  - first:
+      213: -335745461534680980
+    second: uf_FX_72
+  - first:
+      213: 2451471577666557567
+    second: uf_FX_73
+  - first:
+      213: 8750610842299435222
+    second: uf_FX_74
+  - first:
+      213: -1762830650669574991
+    second: uf_FX_75
+  - first:
+      213: 6395336495443081793
+    second: uf_FX_76
+  - first:
+      213: -261925426208962513
+    second: uf_FX_77
+  - first:
+      213: 8088706753910665534
+    second: uf_FX_78
+  - first:
+      213: 2816531373707369054
+    second: uf_FX_79
+  - first:
+      213: -6875939152276295973
+    second: uf_FX_80
+  - first:
+      213: 3814400571017211663
+    second: uf_FX_81
+  - first:
+      213: -4467071397667091852
+    second: uf_FX_82
+  - first:
+      213: -8524580112613418016
+    second: uf_FX_83
+  - first:
+      213: 4928290015090770842
+    second: uf_FX_84
+  - first:
+      213: -3321502624227627522
+    second: uf_FX_85
+  - first:
+      213: -6601483544119774871
+    second: uf_FX_86
+  - first:
+      213: -8756586277475121311
+    second: uf_FX_87
+  - first:
+      213: 1040654340416334275
+    second: uf_FX_88
+  - first:
+      213: 3593024525829439033
+    second: uf_FX_89
+  - first:
+      213: 6349749133535242693
+    second: uf_FX_90
+  - first:
+      213: -2151995725460289058
+    second: uf_FX_91
+  - first:
+      213: 3607075327750734618
+    second: uf_FX_92
+  - first:
+      213: 9017838381357920298
+    second: uf_FX_93
+  - first:
+      213: 5216872656292032328
+    second: uf_FX_94
+  - first:
+      213: 8467844185072726777
+    second: uf_FX_95
+  - first:
+      213: 237794932570863080
+    second: uf_FX_96
+  - first:
+      213: -8889706853325056703
+    second: uf_FX_97
+  - first:
+      213: 2540293062520655030
+    second: uf_FX_98
+  - first:
+      213: 8550382667471689833
+    second: uf_FX_99
+  - first:
+      213: 2843559615459204544
+    second: uf_FX_100
+  - first:
+      213: 7524294402620678761
+    second: uf_FX_101
+  - first:
+      213: -5285122707233958080
+    second: uf_FX_102
+  - first:
+      213: 4973414235471124484
+    second: uf_FX_103
+  - first:
+      213: -3705898880641397130
+    second: uf_FX_104
+  - first:
+      213: 8834166718297282920
+    second: uf_FX_105
+  - first:
+      213: -3694218483021559340
+    second: uf_FX_106
+  - first:
+      213: -7768794383800785657
+    second: uf_FX_107
+  - first:
+      213: -2874385655506001021
+    second: uf_FX_108
+  - first:
+      213: 1252180877370905808
+    second: uf_FX_109
+  - first:
+      213: -518513369303877428
+    second: uf_FX_110
+  - first:
+      213: 8356580078111263776
+    second: uf_FX_111
+  - first:
+      213: 5296099156804161851
+    second: uf_FX_112
+  - first:
+      213: -3340152991983838321
+    second: uf_FX_113
+  - first:
+      213: -5330364153785300367
+    second: uf_FX_114
+  - first:
+      213: -5688174969046247436
+    second: uf_FX_115
+  - first:
+      213: 3154695097175477058
+    second: uf_FX_116
+  - first:
+      213: -8861526777124991809
+    second: uf_FX_117
+  - first:
+      213: 4575868436581821632
+    second: uf_FX_118
+  - first:
+      213: 5827001227833545838
+    second: uf_FX_119
+  - first:
+      213: 5524331524499004623
+    second: uf_FX_120
+  - first:
+      213: 9123477851445422320
+    second: uf_FX_121
+  - first:
+      213: -4655799032070981704
+    second: uf_FX_122
+  - first:
+      213: 8242883417859260776
+    second: uf_FX_123
+  - first:
+      213: -3681513115395292476
+    second: uf_FX_124
+  - first:
+      213: -4499475388071757633
+    second: uf_FX_125
+  - first:
+      213: -8980922263160584498
+    second: uf_FX_126
+  - first:
+      213: -3272070806783306906
+    second: uf_FX_127
+  - first:
+      213: -3518932472548493417
+    second: uf_FX_128
+  - first:
+      213: -3846424648549361586
+    second: uf_FX_129
+  - first:
+      213: 9098468835297565573
+    second: uf_FX_130
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: uf_FX_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 391
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae06bdc0a45fb1340800000000000000
+      internalID: 4835728323304448234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 387
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877f8840902e9c390800000000000000
+      internalID: -7797452751456635016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6297bca586bdd0c0800000000000000
+      internalID: -4549279363329715605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 384
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2c04892d07f7090800000000000000
+      internalID: -8034579160405851417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e453cf4725f0e70800000000000000
+      internalID: 9083569635830615605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_5
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 391
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280704bd316e23df0800000000000000
+      internalID: -201846060321050494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_6
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 387
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbc32640c0c5cec0800000000000000
+      internalID: -3547217199441392686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 384
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e613cc0753a69e20800000000000000
+      internalID: 3357050166522877670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb121b8e555ad810800000000000000
+      internalID: 1790837666381700034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 384
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e2398150a4d13d0800000000000000
+      internalID: -3234347571634557323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 322
+        width: 17
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0fba3af0c93befd0800000000000000
+      internalID: -2311690482729959665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_11
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 363
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f6a456b9c037fd0800000000000000
+      internalID: -2345517119371055259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 360
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2b00b80210ad9a0800000000000000
+      internalID: -6207647897094147389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 360
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e2a61dab6ea49a0800000000000000
+      internalID: -6247927842971439576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 360
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb56765887fefd8c0800000000000000
+      internalID: -3972193045404228165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_15
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 367
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3b19c793c45a990800000000000000
+      internalID: -7375405004962548823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_16
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 363
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f863e820e4db600800000000000000
+      internalID: 485630107708723094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_17
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 360
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57594e5be3abab5e0800000000000000
+      internalID: -1892995914853477003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 360
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35852373b074fbbb0800000000000000
+      internalID: -4918134154569033645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_19
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 314
+        width: 24
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb3cc1b48f8b4460800000000000000
+      internalID: 7227027827127499723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_20
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 336
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c96ba2ad69781670800000000000000
+      internalID: 8509685007704091080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 323
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c302a9919f89c90800000000000000
+      internalID: -7162701318977471368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3caf58ab230f18f20800000000000000
+      internalID: 3423281292446661315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_23
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 323
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30b04b05fa7e84a0800000000000000
+      internalID: -6589194011922091972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_24
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 345
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59272670cb48dec80800000000000000
+      internalID: -8291825395806604651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_25
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 343
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d89fc23f20464f0800000000000000
+      internalID: -836540387329209022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_26
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 341
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338e3b54943415bc0800000000000000
+      internalID: -3796179028915525581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_27
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 317
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9552990d121880710800000000000000
+      internalID: 1659718444919629145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_28
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 321
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbab82812b909800800000000000000
+      internalID: 617163717176175559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_29
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 321
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3db5077e3f27eef0800000000000000
+      internalID: -79042523124351686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_30
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 321
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64da5f49b9790ad0800000000000000
+      internalID: -2735521461843602324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_31
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 319
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbde43b6b076b43e0800000000000000
+      internalID: -2068446305105678915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_32
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 317
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0312ae0caf68d270800000000000000
+      internalID: 8275487100063847179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_33
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 294
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763acb35ff1a40b70800000000000000
+      internalID: 8864388084565582695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_34
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 294
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6711fc93e31f79a0800000000000000
+      internalID: -6233241490945927315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_35
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 296
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a6d0fabc36a6bb0800000000000000
+      internalID: -4942027914619295156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_36
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 273
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f4daa3378a75ee0800000000000000
+      internalID: -1272363156849733768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_37
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 274
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464b5d314d3690280800000000000000
+      internalID: -9076613811471535004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_38
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 294
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41da61215ab07ed50800000000000000
+      internalID: 6766389768748444948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_39
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 293
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334926a30c7585f90800000000000000
+      internalID: -6964720340603595725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_40
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 294
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78cbe2e062aef8360800000000000000
+      internalID: 7174210180592090247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_41
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 293
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b93c9385d113d410800000000000000
+      internalID: 1500562709578267065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_42
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 273
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9016fbf9490ee63d0800000000000000
+      internalID: -3211382555328683767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_43
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 272
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bab9e2960d77ff40800000000000000
+      internalID: 5762211715431905968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_44
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 273
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75f4aa2f3e93d1f0800000000000000
+      internalID: -1021298696347388546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_45
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 267
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930e8c982c0c4ed80800000000000000
+      internalID: -8222235077903851463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_46
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 267
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d9e603a976a8b90800000000000000
+      internalID: -7238859539109470966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_47
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 267
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ee2370948fd5eb0800000000000000
+      internalID: -4729351041132073433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_48
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 267
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a4d39038326c580800000000000000
+      internalID: -8807312975573726582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_49
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 248
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604f42ebb8c6062a0800000000000000
+      internalID: -6746272894354656250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_50
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 244
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b71f4d51f0b89e00800000000000000
+      internalID: 1051785063690082230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_51
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 245
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd6cdcc819c00720800000000000000
+      internalID: 2810467275832585719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_52
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 244
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca318124711213710800000000000000
+      internalID: 1671153320508003244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_53
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 244
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702d122a27c0bfec0800000000000000
+      internalID: -3532215796256091641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_54
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 247
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b38e8acc2091bf50800000000000000
+      internalID: 6895451026532238264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_55
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 245
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546595039ddd6f740800000000000000
+      internalID: 5185575945852507717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_56
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 244
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9ee3aa2cc019c60800000000000000
+      internalID: 7823048057938700781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_57
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 248
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca41209b7feeebd0800000000000000
+      internalID: -2598876620968080701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_58
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 246
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d61777bbb6c4a90800000000000000
+      internalID: -7328364040731660947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_59
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 218
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a743f9d58be385b0800000000000000
+      internalID: -5367187370775722071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_60
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 252
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d02a9d498ae9cc0800000000000000
+      internalID: -3702336486392066726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 197
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796156b11d4e50d20800000000000000
+      internalID: 3244250693349217943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_62
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 192
+        width: 15
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceaea2a7109c7ba60800000000000000
+      internalID: 7689835896940194540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_63
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 225
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5a9174b211f1e20800000000000000
+      internalID: 3323393927596844485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_64
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c85506ae94b5b60800000000000000
+      internalID: 7735858055926352992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_65
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 223
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b2a6f0205a7a640800000000000000
+      internalID: 5091219332032768841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_66
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 222
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92993def3f4312e90800000000000000
+      internalID: -7052297318928508631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_67
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 225
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6633dd9f9b7bf5ad0800000000000000
+      internalID: -2711246441264893082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_68
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 223
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b79e7ad118f0f10800000000000000
+      internalID: 2238149504197557038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_69
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 221
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ad04298010e6ee0800000000000000
+      internalID: -1266073308919440871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_70
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 197
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e3769219832d160800000000000000
+      internalID: 7048758562904292957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_71
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 192
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f4a7bfbf30bbbf0800000000000000
+      internalID: -307647768753975520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_72
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 196
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6896461841375bf0800000000000000
+      internalID: -335745461534680980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_73
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 195
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7618c35960650220800000000000000
+      internalID: 2451471577666557567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_74
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 196
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d880f6c23a607970800000000000000
+      internalID: 8750610842299435222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_75
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 196
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b45ba3fcda2987e0800000000000000
+      internalID: -1762830650669574991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 173
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14af9fd98acc0c850800000000000000
+      internalID: 6395336495443081793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_77
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 168
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f280c2d66347d5cf0800000000000000
+      internalID: -261925426208962513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_78
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 173
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31f527dfebd04070800000000000000
+      internalID: 8088706753910665534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_79
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 168
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a129c9c54561720800000000000000
+      internalID: 2816531373707369054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_80
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 172
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdeee5375c1c390a0800000000000000
+      internalID: -6875939152276295973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_81
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 171
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f278a1c197fe430800000000000000
+      internalID: 3814400571017211663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_82
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 172
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47acebb3b36c102c0800000000000000
+      internalID: -4467071397667091852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_83
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 172
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb51508d8b92b980800000000000000
+      internalID: -8524580112613418016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 149
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93079358adc46440800000000000000
+      internalID: 4928290015090770842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_85
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 144
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd626a16f6a7e1d0800000000000000
+      internalID: -3321502624227627522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_86
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 149
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961772a51b1d264a0800000000000000
+      internalID: -6601483544119774871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_87
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 144
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167090ecc2b5a7680800000000000000
+      internalID: -8756586277475121311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_88
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 148
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9eb76eb95217e00800000000000000
+      internalID: 1040654340416334275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_89
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 147
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e745305ccfcd130800000000000000
+      internalID: 3593024525829439033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_90
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 148
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9663dc137de1850800000000000000
+      internalID: 6349749133535242693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_91
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 148
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9c7c91a439222e0800000000000000
+      internalID: -2151995725460289058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 125
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1388a446e7ee0230800000000000000
+      internalID: 3607075327750734618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_93
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 120
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a20f8b2ba3cc52d70800000000000000
+      internalID: 9017838381357920298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_94
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 125
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f2cbc6a0e066840800000000000000
+      internalID: 5216872656292032328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_95
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 120
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2fd98fb63d38570800000000000000
+      internalID: 8467844185072726777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_96
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 124
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e536453b31dc4300800000000000000
+      internalID: 237794932570863080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_97
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 123
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145543277ba61a480800000000000000
+      internalID: -8889706853325056703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_98
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 124
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bccee0d41fe04320800000000000000
+      internalID: 2540293062520655030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_99
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 124
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9689e44fbbf09a670800000000000000
+      internalID: 8550382667471689833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd9719876a567720800000000000000
+      internalID: 2843559615459204544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_101
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 96
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9626aadc4e9ab6860800000000000000
+      internalID: 7524294402620678761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_102
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 101
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04718f846e877a6b0800000000000000
+      internalID: -5285122707233958080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_103
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 96
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 408902a95ed150540800000000000000
+      internalID: 4973414235471124484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_104
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 100
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e0add4a90029cc0800000000000000
+      internalID: -3705898880641397130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_105
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 99
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86910ba23d3499a70800000000000000
+      internalID: 8834166718297282920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_106
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 100
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d941dcccdf7bbcc0800000000000000
+      internalID: -3694218483021559340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_107
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 100
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70521843ba2bf2490800000000000000
+      internalID: -7768794383800785657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 77
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3832618b9712c18d0800000000000000
+      internalID: -2874385655506001021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_109
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 72
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4da36afd3a06110800000000000000
+      internalID: 1252180877370905808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_110
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 77
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8f95b76deddc8f0800000000000000
+      internalID: -518513369303877428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_111
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 72
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c8de45e4988f370800000000000000
+      internalID: 8356580078111263776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_112
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 76
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31de888f168f7940800000000000000
+      internalID: 5296099156804161851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_113
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 75
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b5859fc8465a1d0800000000000000
+      internalID: -3340152991983838321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_114
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 76
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ac62a2b0eb606b0800000000000000
+      internalID: -5330364153785300367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_115
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 76
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7dabdb00b8f01b0800000000000000
+      internalID: -5688174969046247436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_116
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b8fc10a7ab7cb20800000000000000
+      internalID: 3154695097175477058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_117
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 49
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc4ad9b858850580800000000000000
+      internalID: -8861526777124991809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_118
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 52
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cca16d5910c08f30800000000000000
+      internalID: 4575868436581821632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_119
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 47
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6498c27ebaadd050800000000000000
+      internalID: 5827001227833545838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_120
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 47
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc514b904e5aac40800000000000000
+      internalID: 5524331524499004623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_121
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 48
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f86c8384ca1d9e70800000000000000
+      internalID: 9123477851445422320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_122
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 50
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b73dc3a277436fb0800000000000000
+      internalID: -4655799032070981704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_123
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861857ebbca946270800000000000000
+      internalID: 8242883417859260776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_124
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 24
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c20ce8b353a8ecc0800000000000000
+      internalID: -3681513115395292476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_125
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 29
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8be5a49f6ae81c0800000000000000
+      internalID: -4499475388071757633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_126
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 24
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec68aecd8ca5d5380800000000000000
+      internalID: -8980922263160584498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_127
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 27
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66351c9ffe44792d0800000000000000
+      internalID: -3272070806783306906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_128
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 27
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797f8217f8d3a2fc0800000000000000
+      internalID: -3518932472548493417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_129
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 27
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4898ef4921ce9ac0800000000000000
+      internalID: -3846424648549361586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uf_FX_130
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 27
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b9fdf2331444e70800000000000000
+      internalID: 9098468835297565573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      uf_FX_0: 4835728323304448234
+      uf_FX_1: -7797452751456635016
+      uf_FX_10: -2311690482729959665
+      uf_FX_100: 2843559615459204544
+      uf_FX_101: 7524294402620678761
+      uf_FX_102: -5285122707233958080
+      uf_FX_103: 4973414235471124484
+      uf_FX_104: -3705898880641397130
+      uf_FX_105: 8834166718297282920
+      uf_FX_106: -3694218483021559340
+      uf_FX_107: -7768794383800785657
+      uf_FX_108: -2874385655506001021
+      uf_FX_109: 1252180877370905808
+      uf_FX_11: -2345517119371055259
+      uf_FX_110: -518513369303877428
+      uf_FX_111: 8356580078111263776
+      uf_FX_112: 5296099156804161851
+      uf_FX_113: -3340152991983838321
+      uf_FX_114: -5330364153785300367
+      uf_FX_115: -5688174969046247436
+      uf_FX_116: 3154695097175477058
+      uf_FX_117: -8861526777124991809
+      uf_FX_118: 4575868436581821632
+      uf_FX_119: 5827001227833545838
+      uf_FX_12: -6207647897094147389
+      uf_FX_120: 5524331524499004623
+      uf_FX_121: 9123477851445422320
+      uf_FX_122: -4655799032070981704
+      uf_FX_123: 8242883417859260776
+      uf_FX_124: -3681513115395292476
+      uf_FX_125: -4499475388071757633
+      uf_FX_126: -8980922263160584498
+      uf_FX_127: -3272070806783306906
+      uf_FX_128: -3518932472548493417
+      uf_FX_129: -3846424648549361586
+      uf_FX_13: -6247927842971439576
+      uf_FX_130: 9098468835297565573
+      uf_FX_14: -3972193045404228165
+      uf_FX_15: -7375405004962548823
+      uf_FX_16: 485630107708723094
+      uf_FX_17: -1892995914853477003
+      uf_FX_18: -4918134154569033645
+      uf_FX_19: 7227027827127499723
+      uf_FX_2: -4549279363329715605
+      uf_FX_20: 8509685007704091080
+      uf_FX_21: -7162701318977471368
+      uf_FX_22: 3423281292446661315
+      uf_FX_23: -6589194011922091972
+      uf_FX_24: -8291825395806604651
+      uf_FX_25: -836540387329209022
+      uf_FX_26: -3796179028915525581
+      uf_FX_27: 1659718444919629145
+      uf_FX_28: 617163717176175559
+      uf_FX_29: -79042523124351686
+      uf_FX_3: -8034579160405851417
+      uf_FX_30: -2735521461843602324
+      uf_FX_31: -2068446305105678915
+      uf_FX_32: 8275487100063847179
+      uf_FX_33: 8864388084565582695
+      uf_FX_34: -6233241490945927315
+      uf_FX_35: -4942027914619295156
+      uf_FX_36: -1272363156849733768
+      uf_FX_37: -9076613811471535004
+      uf_FX_38: 6766389768748444948
+      uf_FX_39: -6964720340603595725
+      uf_FX_4: 9083569635830615605
+      uf_FX_40: 7174210180592090247
+      uf_FX_41: 1500562709578267065
+      uf_FX_42: -3211382555328683767
+      uf_FX_43: 5762211715431905968
+      uf_FX_44: -1021298696347388546
+      uf_FX_45: -8222235077903851463
+      uf_FX_46: -7238859539109470966
+      uf_FX_47: -4729351041132073433
+      uf_FX_48: -8807312975573726582
+      uf_FX_49: -6746272894354656250
+      uf_FX_5: -201846060321050494
+      uf_FX_50: 1051785063690082230
+      uf_FX_51: 2810467275832585719
+      uf_FX_52: 1671153320508003244
+      uf_FX_53: -3532215796256091641
+      uf_FX_54: 6895451026532238264
+      uf_FX_55: 5185575945852507717
+      uf_FX_56: 7823048057938700781
+      uf_FX_57: -2598876620968080701
+      uf_FX_58: -7328364040731660947
+      uf_FX_59: -5367187370775722071
+      uf_FX_6: -3547217199441392686
+      uf_FX_60: -3702336486392066726
+      uf_FX_61: 3244250693349217943
+      uf_FX_62: 7689835896940194540
+      uf_FX_63: 3323393927596844485
+      uf_FX_64: 7735858055926352992
+      uf_FX_65: 5091219332032768841
+      uf_FX_66: -7052297318928508631
+      uf_FX_67: -2711246441264893082
+      uf_FX_68: 2238149504197557038
+      uf_FX_69: -1266073308919440871
+      uf_FX_7: 3357050166522877670
+      uf_FX_70: 7048758562904292957
+      uf_FX_71: -307647768753975520
+      uf_FX_72: -335745461534680980
+      uf_FX_73: 2451471577666557567
+      uf_FX_74: 8750610842299435222
+      uf_FX_75: -1762830650669574991
+      uf_FX_76: 6395336495443081793
+      uf_FX_77: -261925426208962513
+      uf_FX_78: 8088706753910665534
+      uf_FX_79: 2816531373707369054
+      uf_FX_8: 1790837666381700034
+      uf_FX_80: -6875939152276295973
+      uf_FX_81: 3814400571017211663
+      uf_FX_82: -4467071397667091852
+      uf_FX_83: -8524580112613418016
+      uf_FX_84: 4928290015090770842
+      uf_FX_85: -3321502624227627522
+      uf_FX_86: -6601483544119774871
+      uf_FX_87: -8756586277475121311
+      uf_FX_88: 1040654340416334275
+      uf_FX_89: 3593024525829439033
+      uf_FX_9: -3234347571634557323
+      uf_FX_90: 6349749133535242693
+      uf_FX_91: -2151995725460289058
+      uf_FX_92: 3607075327750734618
+      uf_FX_93: 9017838381357920298
+      uf_FX_94: 5216872656292032328
+      uf_FX_95: 8467844185072726777
+      uf_FX_96: 237794932570863080
+      uf_FX_97: -8889706853325056703
+      uf_FX_98: 2540293062520655030
+      uf_FX_99: 8550382667471689833
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

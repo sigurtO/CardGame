@@ -10,9 +10,12 @@ public class CardData : ScriptableObject
 {
     [Header("Card info")]
     [SerializeField] public string cardName;
+    [TextArea]
     [SerializeField] public string description;
     [SerializeField] public int manaCost;
     [SerializeField] public Sprite image;
+    [Tooltip("If true, this card goes to the Exhaust pile instead of the Discard pile after playing.")]
+    [SerializeField] public bool exhausts;
 
 
     [Header("Card Effects")]

@@ -14,13 +14,13 @@ public class EndTurnButton : MonoBehaviour
 
     private void OnEnable()
     {
-        turnManager.OnPlayerTurnEnded += EndTurn; // subscribe to the event when player turn ends
+        TurnManager.OnPlayerTurnEnded += EndTurn; // subscribe to the event when player turn ends
         turnManager.OnEnemyTurnEnded += EnemyTurnEnded; // subscribe to the event when enemy turn ends
     }
 
     private void OnDisable()
     {
-        turnManager.OnPlayerTurnEnded -= EndTurn;
+        TurnManager.OnPlayerTurnEnded -= EndTurn;
         turnManager.OnEnemyTurnEnded -= EnemyTurnEnded;
 
     }
