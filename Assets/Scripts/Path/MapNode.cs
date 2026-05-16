@@ -34,16 +34,13 @@ public class MapNode : MonoBehaviour
         if (nodeButton == null) nodeButton = GetComponent<Button>();
     }
 
-    // Called by the MapManager to turn this specific node on or off
-    public void SetInteractable(bool isClickable)
+    public void SetInteractable(bool isClickable) //node on or off
     {
         nodeButton.interactable = isClickable;
 
-        // Optional: Dim the color if it's locked so the player knows!
         nodeIcon.color = isClickable ? Color.white : Color.gray;
     }
     
 
-    // A getter so the MapManager can see what encounter this node holds
     public EncounterDefinition GetEncounter() => myEncounter;
 }

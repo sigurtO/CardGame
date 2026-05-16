@@ -40,26 +40,22 @@ public class EnemyManager : MonoBehaviour
     {
         Debug.Log("[EnemyManager] Enemy Turn Started!");
 
-        // FIX: Loop backwards so we can safely remove destroyed/null enemies
         for (int i = activeEnemies.Count - 1; i >= 0; i--)
         {
             Enemy currentEnemy = activeEnemies[i];
 
-            // 1. Enemy was destroyed earlier? (dead, despawned, etc.)
-            if (currentEnemy == null)
+
+            if (currentEnemy == null) // make sure enemy is removed
             {
                 activeEnemies.RemoveAt(i);
                 continue;
             }
 
-            // 2. Enemy is alive → execute its saved intent
             currentEnemy.ExecutePhase(playerTarget);
 
-            // 3. Optional pacing delay
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(1f); //delay for multiple enemies
         }
 
-        // 4. Notify the turn system that enemies are done
         OnEnemyTurnEnded?.Invoke();
     }
 
@@ -75,13 +71,11 @@ public class EnemyManager : MonoBehaviour
 
     private void HandleEnemyDeath(Enemy deadEnemy)
     {
-        // 1. Remove the dead enemy from our list instantly
         if (activeEnemies.Contains(deadEnemy))
         {
             activeEnemies.Remove(deadEnemy);
         }
 
-        // 2. Check if that was the last one!
         CheckForBattleEnd();
     }
 

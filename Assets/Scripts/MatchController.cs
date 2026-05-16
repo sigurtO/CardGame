@@ -89,7 +89,7 @@ public class MatchController : MonoBehaviour
             return;
         }
 
-            // 1. EXECUTE ALL EFFECTS FIRST
+            //EXECUTE ALL EFFECTS FIRST
             foreach (var payload in loadedCard.Effects)
             {
                 if (payload.effect != null)
@@ -106,7 +106,7 @@ public class MatchController : MonoBehaviour
 
 
 
-        //2/ REMOVE CARD FROM HAND
+        // REMOVE CARD FROM HAND
         if (loadedCard.exhausts)
         {
             deckManager.ExhaustCard(loadedCard);
@@ -116,7 +116,7 @@ public class MatchController : MonoBehaviour
             deckManager.DiscardCard(loadedCard);
         }
         //deckManager.DiscardCard(loadedCard); //here
-        // 3. UPDATE HAND UI
+        // UPDATE HAND UI
         handManager.OnCardUse(loadedCardUi);
 
         loadedCard = null;

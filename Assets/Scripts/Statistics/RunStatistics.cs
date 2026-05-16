@@ -3,6 +3,9 @@ using UnityEngine;
 [System.Serializable]
 public class RunStatistics
 {
+    public string playerName;
+    public string runDate;
+
     public int enemiesKilled;
     public int encountersSurvived;
     public int totalDamageTaken;
@@ -14,6 +17,7 @@ public class RunStatistics
     // Call this when starting a new run!
     public void Reset()
     {
+        runDate = string.Empty;
         enemiesKilled = 0;
         encountersSurvived = 0;
         totalDamageTaken = 0;

@@ -2,7 +2,6 @@ using System;
 using UnityEngine;
 using UnityEngine.Events;
 
-//public enum GameState { BattleStart, PlayerTurn, EnemyTurn, Victory, Defeat }
 public class TurnManager : MonoBehaviour
 {
     //[SerializeField] // serialzed for testing

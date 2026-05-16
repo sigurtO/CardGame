@@ -982,8 +982,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e19465627f5c3443ad785ba5c1d6447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  currentHealth: 50
-  maxHealth: 50
+  currentHealth: 10
+  maxHealth: 10
   phases:
   - phases: {fileID: 11400000, guid: ceaf1a1a5d92b114090c681515e8aca6, type: 2}
     amount: 10

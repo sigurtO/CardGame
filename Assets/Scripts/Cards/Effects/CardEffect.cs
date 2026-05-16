@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class CardEffect : ScriptableObject
+public abstract class CardEffect : ScriptableObject //parent class
 {
     public abstract void Execute(GameObject source, GameObject target, int effectValue); // effects needs to know how to execute themselves
 }

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EffectTick : CardEffect
+public class EffectTick : CardEffect //parent class
 {
     [SerializeField]
     public int durationTurns = 3;

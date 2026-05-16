@@ -30,23 +30,19 @@ public class TargetingManager : MonoBehaviour
     {
         if (!isTargeting) return;
 
-        // 1. SAFETY: Ensure there is an active touch or mouse
         if (Pointer.current == null) return;
 
-        // 2. CROSS-PLATFORM: Read the position of the Touch OR the Mouse
-        Vector2 pointerPos = Pointer.current.position.ReadValue();
+        Vector2 pointerPos = Pointer.current.position.ReadValue(); // hold the current position of the mouse or touch
 
         Vector2 startPos = activeCardTransform.position;
         arrowPointer.UpdateArrowPosition(startPos, pointerPos);
 
-        // 3. THE RELEASE: Did the player let go of the mouse or lift their finger?
-        if (Pointer.current.press.wasReleasedThisFrame)
+        if (Pointer.current.press.wasReleasedThisFrame) // release mouse (on target?)
         {
             ConfirmTarget(pointerPos);
         }
 
-        // 4. THE CANCEL (Optional): Right-click on PC, or maybe a 2-finger tap on mobile to cancel
-        if (Mouse.current != null && Mouse.current.rightButton.wasPressedThisFrame)
+        if (Mouse.current != null && Mouse.current.rightButton.wasPressedThisFrame) //cancel
         {
             CancelTargeting();
         }
@@ -54,15 +50,12 @@ public class TargetingManager : MonoBehaviour
 
     private void ConfirmTarget(Vector2 currentPointerPos)
     {
-        // 1. Convert the UI screen pixels into an exact coordinate in your 2D game world
-        Vector2 worldPoint = Camera.main.ScreenToWorldPoint(currentPointerPos);
+        Vector2 worldPoint = Camera.main.ScreenToWorldPoint(currentPointerPos); // UI to world
 
-        // 2. Ask the 2D Engine: "Is there a collider at this exact world point?"
-        // (We pass Vector2.zero for the direction because we are just poking a single point, not shooting a line)
+        // find collider
         RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero, Mathf.Infinity, targetableLayer);
 
-        // 3. Did we hit something? (Notice it's hit.collider != null for 2D, instead of Physics.Raycast returning a bool!)
-        if (hit.collider != null)
+        if (hit.collider != null) // hit collider
         {
             GameObject targetHit = hit.collider.gameObject;
             Debug.Log($"Direct hit on 2D Collider: {targetHit.name}");
@@ -71,12 +64,11 @@ public class TargetingManager : MonoBehaviour
         }
         else
         {
-            // If they let go over empty space, cancel the targeting!
             Debug.Log("Let go over empty space. Cancelling card play.");
             matchController.CancelCardSelection();
         }
 
-        // Always turn off the arrow when they let go
+        // Always turn off the arrow when release
         isTargeting = false;
         arrowPointer.EnableArrow(false);
     }

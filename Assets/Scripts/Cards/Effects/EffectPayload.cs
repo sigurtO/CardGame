@@ -3,7 +3,7 @@ using UnityEngine;
 
 
 [Serializable]
-public struct EffectPayload
+public struct EffectPayload // Makes sure we can have multiple effects on card // a list of these on cardData
 {
     [Tooltip("The logic to execute (e.g., DamageEffect, HealEffect)")]
     public CardEffect effect;

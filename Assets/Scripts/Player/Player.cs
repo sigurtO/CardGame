@@ -4,7 +4,7 @@ using UnityEngine.Events;
 
 public class Player : MonoBehaviour, ICombatTarget //this holds both ItakeDamage and IBuffable
 {
-    //[SerializeField] private int currentHealth = 100;
+    //[SerializeField] private int currentHealth = 100; //health moved to RunSate
     //[SerializeField] private int maxHealth = 100;
 
     [SerializeField] private CurrentRunState runState; // Inject the Single Source of Truth
@@ -48,8 +48,8 @@ public class Player : MonoBehaviour, ICombatTarget //this holds both ItakeDamage
 
         int shieldAbsorbed = 0;
         int damageHit = 0;
-        // 1. Let the VOLATILE shield absorb damage first
-        if (shield > 0)
+
+        if (shield > 0) // shield absorbs damage first
         {
             if (shield >= dmg)
             {
@@ -67,7 +67,7 @@ public class Player : MonoBehaviour, ICombatTarget //this holds both ItakeDamage
             OnShield?.Invoke(shield);
         }
 
-        // 2. Apply remaining damage to the PERSISTENT Backpack Health
+        // 2. Apply remaining damage to health
         if (dmg > 0)
         {
             damageHit = dmg; // For analytics tracking
@@ -96,7 +96,7 @@ public class Player : MonoBehaviour, ICombatTarget //this holds both ItakeDamage
     {
         runState.currentHealth += amount;
 
-        // Clamp to max health
+        // dont go above max health
         runState.currentHealth = Mathf.Min(runState.currentHealth, runState.currentMaxHealth);
 
         OnHealthChanged?.Invoke(runState.currentHealth, runState.currentMaxHealth);
@@ -107,7 +107,6 @@ public class Player : MonoBehaviour, ICombatTarget //this holds both ItakeDamage
         shield += amount;
         OnShield?.Invoke(shield); //for updating shield UI
 
-        // implement so the shield goes away after enemy round is over
     }
 
     private void ResetShield()

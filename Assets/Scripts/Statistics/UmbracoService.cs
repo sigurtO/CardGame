@@ -6,7 +6,7 @@ using UnityEngine.Networking;
 public class UmbracoService : MonoBehaviour
 {
     [Header("API Settings")]
-    [SerializeField] private string umbracoApiUrl = "https://your-umbraco-site.com/api/leaderboard";
+    [SerializeField] private string umbracoApiUrl = "http://localhost:5000/api/gamedata/submitrun";
 
     public void SendRunData(string jsonPayload, System.Action onComplete)
     {

@@ -63,13 +63,22 @@ public class DefeatManager : MonoBehaviour
     // Hook this up to your "Return to Map" UI Button OnClick event!
     public void ReturnToMapButtonClicked()
     {
-        Debug.Log("[DefeatManager] Returning to map and resetting run...");
+        Debug.Log("[DefeatManager] 'Return to Map' clicked. Delegating to Umbraco Service...");
 
         if (runState != null && runState.runStats != null && umbracoService != null)
         {
-            // 1. Get the data
+            // 1. INJECT UMBRACO META DATA!
+            // Grab the name from PlayerPrefs (Default to Guest if they haven't set a name yet)
+            runState.runStats.playerName = PlayerPrefs.GetString("CurrentPlayerName", "Guest_1234");
+
+            // Stamp it with the exact current time in UTC
+            runState.runStats.runDate = System.DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss");
+
+            // 2. Generate the perfectly formatted JSON
             string jsonPayload = runState.runStats.ToJson();
-            // 2. Send it to Umbraco, and reset the run only after we get a response back (success or failure)
+            Debug.Log("<color=cyan><b>--- PREPARING EXPORT ---</b></color>\n" + jsonPayload);
+
+            // 3. Hand it to the service, and pass ExecuteSceneTransition as the callback!
             umbracoService.SendRunData(jsonPayload, ResetRunAfterUmbracoTransfer);
         }
         else

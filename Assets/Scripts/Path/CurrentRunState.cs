@@ -1,4 +1,3 @@
-// Inside your CurrentRunState.cs ScriptableObject
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,7 +10,6 @@ public class CurrentRunState : ScriptableObject
     [Header("Analytics")]
     public RunStatistics runStats = new RunStatistics();
 
-    // NEW: The master deck the player brings to every battle
     public List<CardData> masterDeck = new List<CardData>();
 
 
@@ -20,7 +18,7 @@ public class CurrentRunState : ScriptableObject
     [Tooltip("The cards the player ALWAYS starts a new run with.")]
     public List<CardData> starterDeck = new List<CardData>();
     [Tooltip("The cards the player can win (could be class specific)")]
-    public CardPool classCardPool;    // The loot table they roll from when they win!
+    public CardPool classCardPool;    // reward cards
 
 
     public int currentHealth;
@@ -28,11 +26,9 @@ public class CurrentRunState : ScriptableObject
 
     public void ResetRun()
     {
-        // 1. Wipe the map memory
         currentNodeID = string.Empty;
         nextEncounter = null;
 
-        // 2. Wipe the runtime deck and rebuild it from the blueprint!
         masterDeck.Clear();
         masterDeck.AddRange(starterDeck);
         runStats.Reset(); // reset stats for new run

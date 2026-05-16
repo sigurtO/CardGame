@@ -4,17 +4,15 @@ using UnityEngine.SceneManagement;
 
 public class MapManager : MonoBehaviour
 {
-    public static MapManager Instance { get; private set; } // Simple Singleton for easy access
+    public static MapManager Instance { get; private set; }
 
-    [SerializeField] private RestSiteManager restSiteManager; // We will build this next!
+    [SerializeField] private RestSiteManager restSiteManager;
 
     [SerializeField] private CurrentRunState runState;
 
-    // Drag the very first row of clickable nodes into this list!
     [SerializeField] private List<MapNode> startingNodes = new List<MapNode>();
 
-    // A master list of ALL nodes on the map so we can find them by ID
-    [SerializeField] private List<MapNode> allNodes = new List<MapNode>();
+    [SerializeField] private List<MapNode> allNodes = new List<MapNode>(); //list of all nodes we can find via id
 
     private void Awake()
     {
@@ -37,30 +35,25 @@ public class MapManager : MonoBehaviour
 
     public void UpdateMapVisuals()
     {
-        // 1. First, lock EVERY node on the map. Trust no one.
-        foreach (MapNode node in allNodes)
+        foreach (MapNode node in allNodes) // lock all nodes
         {
             node.SetInteractable(false);
         }
 
-        // 2. Are we at the start of a run?
-        if (string.IsNullOrEmpty(runState.currentNodeID))
+        if (string.IsNullOrEmpty(runState.currentNodeID)) // if we are at start of run
         {
-            // Unlock the bottom row!
-            foreach (MapNode node in startingNodes)
+            foreach (MapNode node in startingNodes) // unlock only the starting nodes
             {
                 node.SetInteractable(true);
             }
             return;
         }
 
-        // 3. We are in the middle of a run! Find out where we are standing.
-        MapNode currentNode = FindNodeByID(runState.currentNodeID);
+        MapNode currentNode = FindNodeByID(runState.currentNodeID); // what Id do we have in our run state
 
         if (currentNode != null)
         {
-            // Unlock ONLY the connected children!
-            foreach (MapNode childNode in currentNode.nextNodes)
+            foreach (MapNode childNode in currentNode.nextNodes) // unlock the children of that node
             {
                 childNode.SetInteractable(true);
             }
@@ -69,22 +62,18 @@ public class MapManager : MonoBehaviour
 
     public void OnNodeClicked(MapNode clickedNode)
     {
-        // 1. Always save our current location in the backpack
-        runState.currentNodeID = clickedNode.nodeID;
+        runState.currentNodeID = clickedNode.nodeID; // save current location in runstate
 
         Debug.Log($"[MapManager] Clicked Node: {clickedNode.nodeID} of type {clickedNode.nodeType}");
 
-        // 2. THE ROUTER: Where do we go?
         switch (clickedNode.nodeType)
         {
-            case NodeType.Encounter:
-                // Normal combat route
+            case NodeType.Encounter: //normal combat
                 runState.nextEncounter = clickedNode.GetEncounter();
                 SceneManager.LoadScene("BattleScene");
                 break;
 
             case NodeType.RestSite:
-                // Pop up the campfire UI! (No scene load needed)
                 restSiteManager.ShowRestSite();
                 break;
 
@@ -94,14 +83,11 @@ public class MapManager : MonoBehaviour
         }
     }
 
-    // Called by the MapNode when the player clicks it
-    public void SetCurrentNode(MapNode clickedNode)
+    public void SetCurrentNode(MapNode clickedNode) //call when player clicks
     {
-        // Save the ID so we know where we are when we return from battle
-        runState.currentNodeID = clickedNode.nodeID;
+        runState.currentNodeID = clickedNode.nodeID; // save ID
 
-        // Save the Encounter so the Battle Scene knows what to spawn
-        runState.nextEncounter = clickedNode.GetEncounter();
+        runState.nextEncounter = clickedNode.GetEncounter(); // save encounter so battle scene knows what to load
     }
 
     private MapNode FindNodeByID(string id)
