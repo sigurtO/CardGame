@@ -73,10 +73,10 @@ public class StatusManager : MonoBehaviour, IStatusReciver
                 target?.TakeDamage(status.amount);
             }
 
-            // 2. Reduce duration
+            // Reduce duration
             status.durationTurns--;
 
-            // 3. Remove if expired
+            // Remove if expired
             if (status.durationTurns <= 0)
             {
                 activeStatuses.RemoveAt(i);

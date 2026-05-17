@@ -78,7 +78,7 @@ public class DeckManager : MonoBehaviour
     {
         if (drawPile.Count == 0)
         {
-            if (discardPile.Count == 0) // this should never happen but just in case
+            if (discardPile.Count == 0) // This happens if we keep drawing and dont use
             {
                 Debug.Log("[DeckManager] Draw pile AND Discard pile are empty! Can't draw."); 
                 return null;

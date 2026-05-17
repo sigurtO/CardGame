@@ -43,7 +43,7 @@ public class TurnManager : MonoBehaviour
         //draw cards etc
     }
 
-    public void OnEndTurnButtonClicked()
+    public void OnEndTurnButtonClicked() //end our turn aka start enemy turn
     {
         Debug.Log("--- PLAYER TURN ENDED ---");
 
