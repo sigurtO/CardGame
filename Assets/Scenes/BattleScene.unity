@@ -4264,6 +4264,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5413485417048520272, guid: 26f9a41a94f76c64d91114e68636dc65, type: 3}
+      propertyPath: manaManager
+      value: 
+      objectReference: {fileID: 404529981}
+    - target: {fileID: 5413485417048520272, guid: 26f9a41a94f76c64d91114e68636dc65, type: 3}
       propertyPath: turnManager
       value: 
       objectReference: {fileID: 1363188278}

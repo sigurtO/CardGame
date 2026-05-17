@@ -9,6 +9,8 @@ public class Player : MonoBehaviour, ICombatTarget //this holds both ItakeDamage
 
     [SerializeField] private CurrentRunState runState; // Inject the Single Source of Truth
 
+    [SerializeField] private ManaManager manaManager;
+
     [SerializeField] private int shield = 0;
 
 
@@ -117,6 +119,11 @@ public class Player : MonoBehaviour, ICombatTarget //this holds both ItakeDamage
             Debug.Log("Shield reset at end of enemy turn.");
         }
         OnShield?.Invoke(shield); //update shield UI
+    }
+
+    public void GivePlayerMana(int amount)
+    {
+        manaManager.GiveMana(amount);
     }
 
 }

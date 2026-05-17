@@ -22,20 +22,6 @@ public class DamageEffect : CardEffect
             }
         }
 
-        ////check for vunerable debuffs on the target and increase damage by 50% for each stack
-        //if (target != null)
-        //{
-        //    IStatusReciver targetStatuses = target.GetComponent<IStatusReciver>();
-        //    if (targetStatuses != null)
-        //    {
-        //        int vulnerable = targetStatuses.GetTotalStatusAmount(StatusType.Vulnerable);
-        //        if (vulnerable > 0)
-        //        {
-        //            finalDamage = Mathf.RoundToInt(finalDamage * 1.5f); // 50% more damage!
-        //        }
-        //    }
-        //}
-
 
         ITakeDamage damageable = target.GetComponent<ITakeDamage>();
         damageable?.TakeDamage(finalDamage);

@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using static Unity.VisualScripting.Member;
 
 public class ManaManager : MonoBehaviour
 {
@@ -30,8 +31,15 @@ public class ManaManager : MonoBehaviour
         OnManaChanged?.Invoke(CurrentMana, MaxMana); // Update UI
     }
 
+    public void GiveMana(int amount)
+    {
+        CurrentMana += amount; // we want to give more than max mana
+        OnManaChanged?.Invoke(CurrentMana, MaxMana);
+        Debug.Log($"Mana increased by {amount}. Current Mana: {CurrentMana}/{MaxMana}");
+    }
 
-    public bool TryConsumeMana(int amount)
+
+public bool TryConsumeMana(int amount)
     {
         if (CurrentMana >= amount)
         {

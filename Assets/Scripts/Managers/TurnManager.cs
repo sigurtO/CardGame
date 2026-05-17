@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.Events;
+using static Unity.VisualScripting.Member;
 
 public class TurnManager : MonoBehaviour
 {
@@ -32,11 +33,21 @@ public class TurnManager : MonoBehaviour
         StartPlayerTurn(); //draw first hand
     }
 
-    public void StartPlayerTurn()
-    {
-        manaManager.ResetManaForNewTurn();
-        matchController.DrawCardOnPlayerTurn();
 
+public void StartPlayerTurn()
+    {
+        IStatusReciver playerStatuses = FindAnyObjectByType<Player>().GetComponent<IStatusReciver>();
+
+        if (playerStatuses.GetTotalStatusAmount(StatusType.Mana) > 0)
+        {
+            int mana = playerStatuses.GetTotalStatusAmount(StatusType.Mana);
+            manaManager.ResetManaForNewTurn(mana);
+        }
+        else
+        {
+            manaManager.ResetManaForNewTurn();
+        }
+        matchController.DrawCardOnPlayerTurn();
         OnPlayerTurnStart?.Invoke();
 
         //matchController.

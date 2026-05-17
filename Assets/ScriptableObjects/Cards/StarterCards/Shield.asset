@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e1c7e58783853c24f8fe28312ebe00e3, type: 3}
-  m_Name: Poison3T
+  m_Name: Shield
   m_EditorClassIdentifier: Assembly-CSharp::CardData
-  cardName: Poison
-  description: Apply poison for 3 turns
-  manaCost: 2
-  image: {fileID: 7202142260673900815, guid: 54c192a9f206e564989035dcfda59e9a, type: 3}
+  cardName: Shield
+  description: Gives 10 shield
+  manaCost: 1
+  image: {fileID: 7098565159169539487, guid: 54c192a9f206e564989035dcfda59e9a, type: 3}
+  exhausts: 0
   effects:
-  - effect: {fileID: 11400000, guid: 3fc783ea60fc5014caa874eabf0c8299, type: 2}
-    amount: 5
-  targetType: 0
+  - effect: {fileID: 11400000, guid: 258590c36f8e22d4289709ed0938bea2, type: 2}
+    amount: 10
+  targetType: 1

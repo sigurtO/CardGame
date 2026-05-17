@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e1c7e58783853c24f8fe28312ebe00e3, type: 3}
-  m_Name: Shield
+  m_Name: Axe
   m_EditorClassIdentifier: Assembly-CSharp::CardData
-  cardName: Shield
-  description: Gives 5 shield
+  cardName: War Axe
+  description: Deal {10} damage
   manaCost: 1
-  image: {fileID: 7098565159169539487, guid: 54c192a9f206e564989035dcfda59e9a, type: 3}
+  image: {fileID: 5799785962735097585, guid: 54c192a9f206e564989035dcfda59e9a, type: 3}
+  exhausts: 0
   effects:
-  - effect: {fileID: 11400000, guid: 258590c36f8e22d4289709ed0938bea2, type: 2}
-    amount: 5
-  targetType: 1
+  - effect: {fileID: 11400000, guid: 5a19a137eeb3cb048ba80e3852f85ec4, type: 2}
+    amount: 10
+  targetType: 0

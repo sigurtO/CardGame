@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51082ec47faedb34e872a43464a44665, type: 3}
+  m_Name: M9_Phalanx
+  m_EditorClassIdentifier: Assembly-CSharp::EncounterDefinition
+  encounterName: Shield & Bats
+  type: 0
+  enemiesToSpawn:
+  - {fileID: 5628541903549112312, guid: 73e9c6be102704f449033416227786f8, type: 3}
+  - {fileID: 2499251071946643608, guid: 3c38db7285ad3224f83a92ab3fedc5f3, type: 3}
+  - {fileID: 2499251071946643608, guid: 3c38db7285ad3224f83a92ab3fedc5f3, type: 3}

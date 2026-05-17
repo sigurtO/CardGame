@@ -12,8 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9012ded6c7ef104c83ac8a4e99b1899, type: 3}
   m_Name: ActiveRun
   m_EditorClassIdentifier: Assembly-CSharp::CurrentRunState
-  nextEncounter: {fileID: 11400000, guid: 2879941b856eb724788ed76bd9f9b795, type: 2}
-  currentNodeID: 1
+  nextEncounter: {fileID: 0}
+  currentNodeID: 
+  runStats:
+    playerName: DragonSlayer99
+    runDate: 
+    enemiesKilled: 0
+    encountersSurvived: 0
+    totalDamageTaken: 0
+    damageAbsorbed: 0
+    timeSpentInBattle: 0
+    perfectFights: 0
+    highestSingleTurnDamage: 0
   masterDeck:
   - {fileID: 11400000, guid: c5379b372645ac746a35edfc839b3f20, type: 2}
   - {fileID: 11400000, guid: c5379b372645ac746a35edfc839b3f20, type: 2}
@@ -24,9 +34,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 914dfa6b0f22b7e4d8d90ed2dd82e2d8, type: 2}
   - {fileID: 11400000, guid: 914dfa6b0f22b7e4d8d90ed2dd82e2d8, type: 2}
   - {fileID: 11400000, guid: 914dfa6b0f22b7e4d8d90ed2dd82e2d8, type: 2}
-  - {fileID: 11400000, guid: 7d887b075a843a945b655003dbe55439, type: 2}
-  - {fileID: 11400000, guid: 7d887b075a843a945b655003dbe55439, type: 2}
-  - {fileID: 11400000, guid: 7d887b075a843a945b655003dbe55439, type: 2}
   startingMaxHealth: 100
   starterDeck:
   - {fileID: 11400000, guid: c5379b372645ac746a35edfc839b3f20, type: 2}
@@ -36,11 +43,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c5379b372645ac746a35edfc839b3f20, type: 2}
   - {fileID: 11400000, guid: 914dfa6b0f22b7e4d8d90ed2dd82e2d8, type: 2}
   - {fileID: 11400000, guid: 914dfa6b0f22b7e4d8d90ed2dd82e2d8, type: 2}
-  - {fileID: 11400000, guid: 914dfa6b0f22b7e4d8d90ed2dd82e2d8, type: 2}
-  - {fileID: 11400000, guid: 914dfa6b0f22b7e4d8d90ed2dd82e2d8, type: 2}
-  - {fileID: 11400000, guid: 7d887b075a843a945b655003dbe55439, type: 2}
-  - {fileID: 11400000, guid: 7d887b075a843a945b655003dbe55439, type: 2}
-  - {fileID: 11400000, guid: 7d887b075a843a945b655003dbe55439, type: 2}
+  - {fileID: 11400000, guid: 6102db2732e50ed479d8b114d15449cb, type: 2}
+  - {fileID: 11400000, guid: 6102db2732e50ed479d8b114d15449cb, type: 2}
   classCardPool: {fileID: 11400000, guid: a632f1a511f631343bfb7258be221040, type: 2}
-  currentHealth: 92
+  currentHealth: 100
   currentMaxHealth: 100

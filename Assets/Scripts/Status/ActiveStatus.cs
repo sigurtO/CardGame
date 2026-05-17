@@ -1,6 +1,6 @@
 using UnityEngine;
 using System;
-public enum StatusType { Poison, Regen, Weak, Strength, Block, Burn, Stun }
+public enum StatusType { Poison, Regen, Weak, Strength, Block, Burn, Stun, Mana }
 [Serializable]
 public class ActiveStatus
 {

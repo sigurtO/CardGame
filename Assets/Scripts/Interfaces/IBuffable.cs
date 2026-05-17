@@ -9,4 +9,8 @@ public interface IBuffable
     void Shield(int amount) { }
 
     void Strengthen(int amount) { }
+
+    void GivePlayerMana(int amount) { }
+
+    void PlayerStartWithMana(int amount) { }
 }

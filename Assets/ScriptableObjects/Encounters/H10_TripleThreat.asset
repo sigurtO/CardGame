@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51082ec47faedb34e872a43464a44665, type: 3}
+  m_Name: H10_TripleThreat
+  m_EditorClassIdentifier: Assembly-CSharp::EncounterDefinition
+  encounterName: Elite Trio
+  type: 0
+  enemiesToSpawn:
+  - {fileID: 4213576986023560843, guid: b6d10e3e9370a9f4e87c4e066dd72ff0, type: 3}
+  - {fileID: 6600952700946591567, guid: 50bbb29af49f31640842a3e863e8e3fb, type: 3}
+  - {fileID: 2045890642167406230, guid: 578edefbfaa5f904f9217c83e885ee92, type: 3}

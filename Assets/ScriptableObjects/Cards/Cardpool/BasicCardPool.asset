@@ -13,9 +13,19 @@ MonoBehaviour:
   m_Name: BasicCardPool
   m_EditorClassIdentifier: Assembly-CSharp::CardPool
   availableCards:
+  - {fileID: 11400000, guid: 2756b780ee2607749aaa97b14e7b9279, type: 2}
+  - {fileID: 11400000, guid: febe8d87353c3ca4f983d058cb1d8fe5, type: 2}
+  - {fileID: 11400000, guid: cde3516ba69906240be0bb69e8dd4c6a, type: 2}
+  - {fileID: 11400000, guid: a9c07424349300f4381c3d4b1bfbf4cf, type: 2}
+  - {fileID: 11400000, guid: d730ca9666e02c24badb6677e7ab71d5, type: 2}
+  - {fileID: 11400000, guid: 307ceb4e88705fc4f90eb37af74c8d45, type: 2}
+  - {fileID: 11400000, guid: c510ac2c532ccbf408d72e2f37f43c79, type: 2}
+  - {fileID: 11400000, guid: e2c54043b282d5546aa487a4eff6f217, type: 2}
+  - {fileID: 11400000, guid: fc2698d7cd422984dbf21dd232d65cee, type: 2}
   - {fileID: 11400000, guid: 994664e0c7313314a9edc7f4b41dbdcf, type: 2}
   - {fileID: 11400000, guid: 0d2411c963da5f943b6c4ba32198f329, type: 2}
-  - {fileID: 11400000, guid: 914dfa6b0f22b7e4d8d90ed2dd82e2d8, type: 2}
+  - {fileID: 11400000, guid: 6102db2732e50ed479d8b114d15449cb, type: 2}
   - {fileID: 11400000, guid: e3dae38a9a76f1f489546fd5a699883e, type: 2}
   - {fileID: 11400000, guid: c5379b372645ac746a35edfc839b3f20, type: 2}
   - {fileID: 11400000, guid: 7d887b075a843a945b655003dbe55439, type: 2}
+  - {fileID: 11400000, guid: b393ca4374da86d4cbe95b67edd4194a, type: 2}
