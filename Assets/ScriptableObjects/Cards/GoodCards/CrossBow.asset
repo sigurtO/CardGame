@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: CrossBow
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   cardName: Cross bow
-  description: Deals {15} damage, gives {10} Sthrenght
+  description: Deals {20} damage, gives {15} Sthrenght
   manaCost: 3
   image: {fileID: 2565676462253403761, guid: 54c192a9f206e564989035dcfda59e9a, type: 3}
   exhausts: 0
   effects:
   - effect: {fileID: 11400000, guid: 5a19a137eeb3cb048ba80e3852f85ec4, type: 2}
-    amount: 15
+    amount: 20
   - effect: {fileID: 11400000, guid: 104c3d60c138bdd45b9fc45a33b064b8, type: 2}
-    amount: 10
+    amount: 15
   targetType: 0

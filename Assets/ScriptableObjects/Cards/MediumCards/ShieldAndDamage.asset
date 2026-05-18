@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1c7e58783853c24f8fe28312ebe00e3, type: 3}
   m_Name: ShieldAndDamage
   m_EditorClassIdentifier: Assembly-CSharp::CardData
-  cardName: Shield and damage
+  cardName: Sharp Shield
   description: Deal {5} damage and gives 5 shield
   manaCost: 2
-  image: {fileID: -1719155325161978768, guid: 54c192a9f206e564989035dcfda59e9a, type: 3}
+  image: {fileID: -855454791376308952, guid: 54c192a9f206e564989035dcfda59e9a, type: 3}
   exhausts: 0
   effects:
   - effect: {fileID: 11400000, guid: 258590c36f8e22d4289709ed0938bea2, type: 2}
-    amount: 5
+    amount: 30
   - effect: {fileID: 11400000, guid: 5a19a137eeb3cb048ba80e3852f85ec4, type: 2}
-    amount: 5
+    amount: 15
   targetType: 0

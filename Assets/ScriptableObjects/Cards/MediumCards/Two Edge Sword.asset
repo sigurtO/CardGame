@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Two Edge Sword
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   cardName: Two Edge Sword
-  description: Deal {5} damage twice
+  description: Deal {15} damage twice
   manaCost: 2
   image: {fileID: 1952866222152418025, guid: 54c192a9f206e564989035dcfda59e9a, type: 3}
   exhausts: 0
   effects:
   - effect: {fileID: 11400000, guid: 5a19a137eeb3cb048ba80e3852f85ec4, type: 2}
-    amount: 5
+    amount: 15
   - effect: {fileID: 11400000, guid: 5a19a137eeb3cb048ba80e3852f85ec4, type: 2}
-    amount: 5
+    amount: 15
   targetType: 0

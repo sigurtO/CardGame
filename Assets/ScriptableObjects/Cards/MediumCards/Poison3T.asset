@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Poison3T
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   cardName: Poison
-  description: Apply poison {damage} for 3 turns
+  description: Apply poison {10} for 3 turns
   manaCost: 1
   image: {fileID: 7202142260673900815, guid: 54c192a9f206e564989035dcfda59e9a, type: 3}
   exhausts: 0
   effects:
   - effect: {fileID: 11400000, guid: 3fc783ea60fc5014caa874eabf0c8299, type: 2}
-    amount: 5
+    amount: 10
   targetType: 0

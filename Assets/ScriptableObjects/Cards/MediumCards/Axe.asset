@@ -19,5 +19,5 @@ MonoBehaviour:
   exhausts: 0
   effects:
   - effect: {fileID: 11400000, guid: 5a19a137eeb3cb048ba80e3852f85ec4, type: 2}
-    amount: 10
+    amount: 15
   targetType: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FireShield
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   cardName: Fire Shield
-  description: Deal {5} damage for 3 rounds and Shield 5
+  description: Deal {5} damage for 3 rounds and Shield 20
   manaCost: 2
   image: {fileID: 535452651182825323, guid: 54c192a9f206e564989035dcfda59e9a, type: 3}
   exhausts: 0
@@ -21,5 +21,5 @@ MonoBehaviour:
   - effect: {fileID: 11400000, guid: 3fc783ea60fc5014caa874eabf0c8299, type: 2}
     amount: 5
   - effect: {fileID: 11400000, guid: 258590c36f8e22d4289709ed0938bea2, type: 2}
-    amount: 5
+    amount: 20
   targetType: 0

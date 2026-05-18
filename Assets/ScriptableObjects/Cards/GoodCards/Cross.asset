@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   cardName: Cross
   description: Deal {3} Damage to self, Gain {30} shield and {1} mna
-  manaCost: 3
+  manaCost: 1
   image: {fileID: 6538459311373581084, guid: 54c192a9f206e564989035dcfda59e9a, type: 3}
   exhausts: 0
   effects:

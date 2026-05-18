@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: Strenght
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   cardName: strength
-  description: give 2 strength current turn
+  description: give {10} strength current turn
   manaCost: 1
   image: {fileID: 2359347080334010879, guid: 54c192a9f206e564989035dcfda59e9a, type: 3}
+  exhausts: 0
   effects:
   - effect: {fileID: 11400000, guid: 104c3d60c138bdd45b9fc45a33b064b8, type: 2}
-    amount: 2
+    amount: 10
   targetType: 1
