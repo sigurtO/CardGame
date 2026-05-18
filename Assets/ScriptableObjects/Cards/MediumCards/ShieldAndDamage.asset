@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: ShieldAndDamage
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   cardName: Sharp Shield
-  description: Deal {5} damage and gives 5 shield
+  description: Deal {15} damage and gives 30 shield
   manaCost: 2
   image: {fileID: -855454791376308952, guid: 54c192a9f206e564989035dcfda59e9a, type: 3}
   exhausts: 0
   effects:
-  - effect: {fileID: 11400000, guid: 258590c36f8e22d4289709ed0938bea2, type: 2}
-    amount: 30
   - effect: {fileID: 11400000, guid: 5a19a137eeb3cb048ba80e3852f85ec4, type: 2}
     amount: 15
+  - effect: {fileID: 11400000, guid: 258590c36f8e22d4289709ed0938bea2, type: 2}
+    amount: 30
   targetType: 0

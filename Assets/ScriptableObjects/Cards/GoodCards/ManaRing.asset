@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ManaRing
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   cardName: Mana Ring
-  description: Give + {1} mana for the next 2 turns (Exhausts)
+  description: Give + {1} mana for next turns (Exhausts)
   manaCost: 1
   image: {fileID: 6105056289646803690, guid: 54c192a9f206e564989035dcfda59e9a, type: 3}
   exhausts: 1

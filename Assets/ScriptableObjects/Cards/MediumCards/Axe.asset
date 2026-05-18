@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Axe
   m_EditorClassIdentifier: Assembly-CSharp::CardData
   cardName: War Axe
-  description: Deal {10} damage
+  description: Deal {15} damage
   manaCost: 1
   image: {fileID: 5799785962735097585, guid: 54c192a9f206e564989035dcfda59e9a, type: 3}
   exhausts: 0
