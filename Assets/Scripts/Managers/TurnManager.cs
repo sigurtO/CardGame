@@ -49,9 +49,6 @@ public void StartPlayerTurn()
         }
         matchController.DrawCardOnPlayerTurn();
         OnPlayerTurnStart?.Invoke();
-
-        //matchController.
-        //draw cards etc
     }
 
     public void OnEndTurnButtonClicked() //end our turn aka start enemy turn
@@ -65,7 +62,7 @@ public void StartPlayerTurn()
         OnPlayerTurnEnded?.Invoke(); //update ui //disable player ablity to play cards
 
 
-        WaitForSeconds wait = new WaitForSeconds(1f); // wait for 1 second before starting enemy turn, adjust as needed
+        WaitForSeconds wait = new WaitForSeconds(1f);
         EndEnemyTurn();
 
     }

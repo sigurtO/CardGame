@@ -19,7 +19,7 @@ public class MatchController : MonoBehaviour
 
 
     private CardData loadedCard = null; // save the selected card in memory
-    private CardUi loadedCardUi = null; // ADD THIS: We now remember the physical UI!
+    private CardUi loadedCardUi = null; // remember the physical UI!
 
 
     public void SetSelectedCard(CardData clickedCardData, CardUi clickedCardUi)
@@ -101,9 +101,6 @@ public class MatchController : MonoBehaviour
                     Debug.LogWarning($"Card {loadedCard.cardName} has an effect payload but the effect is unassigned!");
                 }
             }
-
-
-
 
 
         // REMOVE CARD FROM HAND
