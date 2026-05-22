@@ -32,7 +32,5 @@ public class DeckUIManager : MonoBehaviour
         if (exaushPileText != null)
             exaushPileText.text = exhaustCount.ToString();
 
-        // Optional: You could add a tiny scale animation here using DOTween or LeanTween
-        // to make the numbers "pop" when they change!
     }
 }
