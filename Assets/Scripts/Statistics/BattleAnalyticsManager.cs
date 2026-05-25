@@ -17,7 +17,6 @@ public class BattleAnalyticsManager : MonoBehaviour
         Enemy.OnEnemyTookDamage += HandleEnemyTookDamage;
         TurnManager.OnPlayerTurnEnded += EvaluateTurnDamage;
         Player.OnDeath += HandlePlayerDeath;
-        EnemyManager.OnBattleWon += HandleBattleWon;
     }
 
     private void OnDisable()
@@ -28,7 +27,6 @@ public class BattleAnalyticsManager : MonoBehaviour
         Enemy.OnEnemyTookDamage -= HandleEnemyTookDamage;
         TurnManager.OnPlayerTurnEnded -= EvaluateTurnDamage;
         Player.OnDeath -= HandlePlayerDeath;
-        EnemyManager.OnBattleWon -= HandleBattleWon;
 
     }
 
@@ -49,10 +47,7 @@ public class BattleAnalyticsManager : MonoBehaviour
 
     private void HandleEnemyKill(Enemy deadEnemy)
     {
-        // 1. Increment the stat in the Backpack
         runState.runStats.enemiesKilled++;
-
-        // 2. Print to console so we know it worked instantly
     }
     private void HandleBattleWon()
     {

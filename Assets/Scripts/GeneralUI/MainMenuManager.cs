@@ -17,10 +17,7 @@ public class MainMenuManager : MonoBehaviour
 
     private void Start()
     {
-        // 1. Check for the Umbraco Name
-        // (If playing via WebGL on Umbraco, you will eventually inject the name here via a JS bridge.
-        // For now, we will simulate it with a simple PlayerPrefs check or a blank string).
-
+ 
         string umbracoProvidedName = GetNameFromUmbraco();
 
         // 2. Route to the correct UI Panel
@@ -66,30 +63,24 @@ public class MainMenuManager : MonoBehaviour
 
     // --- BUTTON CLICKS ---
 
-    // Hook this to the Start button on the LOGGED IN panel
     public void OnLoggedInStartClicked()
     {
         // Name is already saved, just load the game!
         LoadGame();
     }
 
-    // Hook this to the Start button on the GUEST panel
     public void OnGuestStartClicked()
     {
-        // 1. Grab whatever they typed into the box
         string typedName = guestNameInput.text;
 
-        // 2. Fallback if they left it completely blank
-        if (string.IsNullOrWhiteSpace(typedName))
+        if (string.IsNullOrWhiteSpace(typedName)) //if blank name
         {
             typedName = "Anonymous_Hero";
         }
 
-        // 3. Lock in the name for the run analytics!
         PlayerPrefs.SetString("CurrentPlayerName", typedName);
         PlayerPrefs.Save();
 
-        // 4. Load the game
         LoadGame();
     }
 
@@ -97,11 +88,9 @@ public class MainMenuManager : MonoBehaviour
     {
         Debug.Log($"[MainMenu] Starting run for: {PlayerPrefs.GetString("CurrentPlayerName")}");
 
-        // Load your Map Scene! (Make sure it's exactly the name of your scene)
         SceneManager.LoadScene("MapScene");
     }
 
-    // --- THE UMBRACO BRIDGE (For later) ---
     [DllImport("__Internal")]
     private static extern string GetUmbracoPlayerNameJS();
 
@@ -118,7 +107,6 @@ public class MainMenuManager : MonoBehaviour
 
         // if in the Unity Editor simulate a fake login
         Debug.Log("[Umbraco Bridge] Editor Mode detected. Skipping JS bridge.");
-       // return "Architect_Tester"; // test logged in UI
         return "";                    // Test guest UI
 
 #endif

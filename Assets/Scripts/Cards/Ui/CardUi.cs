@@ -79,7 +79,7 @@ public class CardUi : MonoBehaviour, IPointerDownHandler
             strength = playerStatusManager.GetTotalStatusAmount(StatusType.Strength);
         }
 
-        // Replaces tokens like "{6}" with "6" (or "6 + Strength" for damage cards)
+
         return Regex.Replace(raw, @"\{(\d+)\}", match =>
         {
             if (!int.TryParse(match.Groups[1].Value, out int baseAmount))
