@@ -45,13 +45,9 @@ public class BattleBootstrapper : MonoBehaviour
                 enemyManager.activeEnemies.Add(enemyScript);
             }
         }
-
-        // 2. THE MAGIC FIX: Wait exactly 1 frame. 
-        // This gives all the newly spawned Enemies time to run their Start() methods!
         yield return null;
 
-        // 3. The dust has settled. Fire the starting gun!
-        // (Make sure this matches your method name, your log said BattleStart!)
+
         turnManager.BattleStart();
     }
 }

@@ -16,11 +16,11 @@ public class ArrowPointer : MonoBehaviour
 
     public void UpdateArrowPosition(Vector2 startScreenPos, Vector2 endScreenPos)
     {
-        // 1. Place the pieces first. Unity automatically handles the Canvas Scaling here!
+        // 1. Canvas scaling
         arrowBody.position = startScreenPos;
         arrowHead.position = endScreenPos;
 
-        // 2. THE FIX: Calculate the distance using LOCAL positions, not Screen positions.
+        // 2. Calculate the distance using LOCAL positions, not Screen positions.
         Vector2 localDirection = arrowHead.localPosition - arrowBody.localPosition;
         float localDistance = localDirection.magnitude;
 
