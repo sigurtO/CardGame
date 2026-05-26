@@ -17,15 +17,15 @@ public class UmbracoService : MonoBehaviour
     {
 
         UnityWebRequest request = new UnityWebRequest(umbracoApiUrl, "POST");
-        byte[] bodyRaw = Encoding.UTF8.GetBytes(jsonPayload);
+        byte[] bodyRaw = Encoding.UTF8.GetBytes(jsonPayload); //convert to bytes for upload handler
 
-        request.uploadHandler = new UploadHandlerRaw(bodyRaw);
-        request.downloadHandler = new DownloadHandlerBuffer();
-        request.SetRequestHeader("Content-Type", "application/json");
+        request.uploadHandler = new UploadHandlerRaw(bodyRaw); //sends json
+        request.downloadHandler = new DownloadHandlerBuffer(); // receives response from server
+        request.SetRequestHeader("Content-Type", "application/json"); //tell umbraco we are sending a json
 
-        yield return request.SendWebRequest();
+        yield return request.SendWebRequest(); //wait for request
 
-        if (request.result == UnityWebRequest.Result.ConnectionError || request.result == UnityWebRequest.Result.ProtocolError)
+        if (request.result == UnityWebRequest.Result.ConnectionError || request.result == UnityWebRequest.Result.ProtocolError) //logs for error finding
         {
             Debug.LogError($"[UmbracoService] Network Error: {request.error}");
         }
@@ -34,7 +34,7 @@ public class UmbracoService : MonoBehaviour
             Debug.Log($"[UmbracoService] Success! Server responded: {request.downloadHandler.text}");
         }
 
-        request.Dispose();
+        request.Dispose(); //free memory
 
         // Tell whoever called us that we are finished, regardless of success/failure
         onComplete?.Invoke();
