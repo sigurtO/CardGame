@@ -1,6 +1,5 @@
-// ✅ THE ELITE WAY: Universal Hold-and-Release Targeting
 using UnityEngine;
-using UnityEngine.InputSystem; // Still using the New Input System!
+using UnityEngine.InputSystem;
 
 public class TargetingManager : MonoBehaviour
 {
